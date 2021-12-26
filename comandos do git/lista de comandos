@@ -1,0 +1,27 @@
+Lista de Comandos do terminal usados no git
+
+Para mudar de pasta: usar comando cd + o nome da pasta destino
+
+Para limpar terminal: ctrl+l
+
+Para listar o que tem dentro da pasta: ls
+
+Para listar pastas ocultas: ls -a mostra pasrtas ocultas
+
+criar pasta(repositorio): mkdir
+
+Para retornar 1 caminho: cd .. para voltar
+
+Para mover arquivo para outro local: mv "nome do arquivo a ser movido" + ./ "nome do local de envio"
+
+Abrir o git: git init
+
+Prepara o arquivo para comitar: git add . ,* ou -a adicona ao repositorio local
+
+criar um comite: git commit -m "inserir comentario", apos fazer uma alteração vai ser preciso comitar a auteração realizada
+
+Enviar o arquivo para nuvem(git/github): git push origin master
+
+verificar status dos arquivos: git status
+
+listar repositorios salvos: git remote -v
